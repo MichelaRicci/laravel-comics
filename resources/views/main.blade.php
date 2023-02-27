@@ -14,9 +14,10 @@
 <body>
     @include('includes.header')
     <main>
-        @yield('home-content')
 
-        <div class="jumbotron"></div>
+        <div class="jumbotron">
+        </div> 
+        @yield('home-content')
 
         <div class="bg-container">
             <div class="container">

@@ -40,3 +40,22 @@ ul {
 .logo {
     height: 400px;
 }
+
+.cards {
+
+    margin: 10px;
+    text-align: center;
+    flex-basis: calc(100% / 6 - 2rem);
+    height: 200px;
+    cursor: pointer;
+
+    figure {
+        height: 70%;
+
+        img {
+            width: 100px;
+            overflow: hidden;
+
+        }
+    }
+}

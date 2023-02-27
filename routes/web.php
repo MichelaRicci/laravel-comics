@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 Route::get('/', function () {
     $comics = config('comics');
-    return view('main', compact('comics'));
+    return view('home', compact('comics'));
 });
 
 Route::get('/characters', function () {
