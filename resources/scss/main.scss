@@ -1,0 +1,29 @@
+.content {
+    background-color: black;
+
+    position: relative;
+    z-index: 1;
+}
+
+h4 {
+    font-size: 15px;
+}
+
+.bg-container {
+    background-image: url(../img/footer-bg.jpg);
+}
+
+
+ul {
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-top: 10px;
+
+    li {
+        list-style: none;
+        font-size: 10px;
+
+    }
+
+}
