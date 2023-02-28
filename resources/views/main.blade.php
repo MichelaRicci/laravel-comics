@@ -19,7 +19,7 @@
         </div> 
         @yield('home-content')
 
-        <div class="bg-container">
+        <section class="bg-container">
             <div class="container">
                 <div class="row">
                     <div class="d-flex">
@@ -84,7 +84,7 @@
 
                 </div>
             </div>
-        </div>
+        </section>
     </main>
     @include('includes.footer')
     

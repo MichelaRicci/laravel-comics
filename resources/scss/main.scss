@@ -86,3 +86,14 @@ ul {
     border: none;
     margin: 0 auto;
 }
+
+#shop-section {
+    background-color: $dc_blue;
+
+    .shop-card {
+        display: flex;
+        padding: 40px 18px;
+        height: 150px;
+    }
+
+}

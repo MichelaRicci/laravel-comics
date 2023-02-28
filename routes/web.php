@@ -20,15 +20,11 @@ Route::get('/', function () {
 Route::get('/', function () {
     $comics = config('comics');
     return view('home', compact('comics'));
-});
+})->name('comics');
 
 Route::get('/characters', function () {
     return view('characters');
 })->name('characters');
-
-Route::get('/comics', function () {
-    return view('comics');
-})->name('comics');
 
 
 Route::get('/movies', function () {
